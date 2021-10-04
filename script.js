@@ -17,7 +17,7 @@ rollbackPercentage = fullPrice * (rollback / 100);
 title = prompt('Как называется Ваш проект?');
 screens = prompt('Какие типы экранов нужно разработать?');
 screenPrice = +prompt('Сколько будет стоить данная работа?');
-adaptive = prompt('Нужен ли адаптив на сайте?');
+adaptive = confirm('Нужен ли адаптив на сайте?');
 
 const service1 = prompt('Какой дополнительный тип услуги нужен?');
 const servicePrice1 = +prompt('Сколько это будет стоить?');
