@@ -97,7 +97,7 @@ showTypeOf(screenPrice);
 showTypeOf(adaptive);
 
 console.log(getRollbackMessage(fullPrice));
-console.log(screens.split(', '));
+console.log(screens.toLowerCase().split(', '));
 console.log(`Сумма за вычетом процента: ${servicePercentPrice}`);
 console.log(`Стоимость вёрстки экранов - ${screenPrice} рублей.
              Стоимость разработки сайта - ${fullPrice} рублей.`);
