@@ -60,7 +60,7 @@ const appData = {
             } while (!this.isString(name));
             
             do {
-                price = prompt('Сколько будет стоить данная работа?');
+                price = prompt('Сколько будет стоить данная работа?', '1200');
             } while (!this.isNumber(price));
 
             this.screens.push({id: i, name: name, price: price});
@@ -72,11 +72,11 @@ const appData = {
             let price = 0;
 
             do {
-                name = prompt('Какой дополнительный тип услуги нужен?').trim();
+                name = prompt('Какой дополнительный тип услуги нужен?', 'таймер').trim();
             } while (!this.isString(name));
 
             do {
-                price = prompt("Сколько это будет стоить?");
+                price = prompt("Сколько это будет стоить?", '600');
             } while (!this.isNumber(price));
             
             this.services[`${name}_${i}`] = +price;
