@@ -1,3 +1,5 @@
+"use strict";
+
 const books = document.querySelectorAll('.book');
 const liBook2 = books[0].querySelectorAll('li');
 const liBook5 = books[5].querySelectorAll('li');
