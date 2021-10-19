@@ -96,7 +96,7 @@ const appData = {
             const input = screen.querySelector('input');
             const selectName = select.options[select.selectedIndex].textContent;
 
-            appData.screens.push(
+            this.screens.push(
                 { 
                  id: index,
                  name: selectName,
